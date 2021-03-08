@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Akaya Telivigala', sans-serif;
+  font: 'Akaya Telivigala';
+  background-color: #EEE;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 0.75em;
+}
+
+h2, h3 {
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+p {
+  padding-top: 0.2em;
+  padding-left: 2em;
+}
+
+li {
+  padding-left: 2em;
+}
+
+.nav-bar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+}
+
+.contact-bar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  float: left;
+  padding-left: 0em;
+}
+
+.contact-bar li {
+  float:right;
+  padding-left: 0em
+}
+
+.horizontal-menu li a, .horizontal-menu li p {
+  display: block;
+  color: #EEE;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 0.75em 0.8em;
+  text-decoration: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.horizontal-menu li a:hover {
+  background-color: #222;
+}
+
+.horizontal-menu li a:active {
+  background-color: #111;
+}
+
+.active {
+  background-color: #003399;
+}
+
+.horizontal-menu li .active:hover {
+  background-color: #002266;
+}
+
+.synopsis {
+  font-style: italic;
+  padding: 2em;
+  padding-bottom: 1em;
+}
+
+.synopsis em {
+  font-style: normal;
+}
